@@ -19,16 +19,16 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'db83682_tfpc');
+define('DB_NAME', 'wp_tfpc');
 
 /** MySQL database username */
-define('DB_USER', 'db83682_tfpc');
+define('DB_USER', 'hype_tfpc');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'supastar');
 
 /** MySQL hostname */
-define('DB_HOST', 'internal-db.s83682.gridserver.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
