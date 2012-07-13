@@ -1,0 +1,585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modernizm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-03 16:41+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: admin <admin@mail.com>\n"
+"Language-Team: Colorlabs Project <sales@colorlabsproject.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\modernizm\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/archive.php:18
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/footer.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/index.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/search.php:18
+msgid "Continue Reading"
+msgstr "Baca Selengkapnya"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/comments.php:4
+msgid "Comments To This Entry"
+msgstr "Komentar Untuk Posting Ini"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/comments.php:20
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/comments.php:44
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/comments.php:46
+msgid "Post Comment"
+msgstr "Berikan Komentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/comments.php:47
+msgid "Cancel"
+msgstr "Batal"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/footer.php:10
+msgid "Featured"
+msgstr "Fitur"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/footer.php:11
+msgid "All Featured"
+msgstr "Semua Fitur"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:16
+msgid "Pages"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:23
+#, fuzzy
+msgid "Feeds"
+msgstr "Fitur"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:25
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:25
+msgid "Main RSS"
+msgstr "RSS utama"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:26
+msgid "Comment Feed"
+msgstr "Umpan Balik"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:33
+msgid "Categories"
+msgstr "Kategori"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:40
+msgid "All Blog Posts"
+msgstr "Semua Artikel Blog"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-gallery.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page-sitemap.php:58
+#, fuzzy
+msgid "Archives"
+msgstr "Arsip"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/page.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/single.php:34
+#, php-format
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/single.php:41
+msgid "No Comment"
+msgstr "Tidak Ada Komentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/single.php:41
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/single.php:41
+msgid "% Comment"
+msgstr "% Komentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-custom.php:507
+msgid " Custom Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1383
+msgid "Search Results"
+msgstr "Hasil Pencarian"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1384
+msgid "Author Archives"
+msgstr "Arsip Penulis"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1387
+msgid "Category Archive"
+msgstr "Arsip Kategori"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1388
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1393
+#, fuzzy
+msgid " Archive"
+msgstr "Arsip"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1389
+msgid "Daily Archive"
+msgstr "Arsip Harian"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1390
+msgid "Monthly Archive"
+msgstr "Arsip Bulanan"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1391
+msgid "Yearly Archive"
+msgstr "Arsip Tahunan"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1392
+msgid "Tag Archive"
+msgstr "Kategori Arsip "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1965
+msgid "&laquo; Previous"
+msgstr "&laquo; Sebelumnya1"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:1966
+msgid "Next &raquo;"
+msgstr "Selanjutnya &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2084
+msgid "You are here:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2087
+msgid "Home"
+msgstr "Utama"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2243
+msgid "g:i a"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2246
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2246
+msgid "i"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2249
+msgid "g a"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2260
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2266
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2271
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2276
+msgid "Y"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2261
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2272
+msgid "F"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2262
+msgid "j"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2267
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2283
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2287
+msgid "404 Not Found"
+msgstr "404 Tidak Ditemukan"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2528
+msgid "ColorLabs Project"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2539
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-interface.php:162
+msgid "Theme Options"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2543
+msgid "Sidebar Manager"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2549
+msgid "Framework Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-functions.php:2552
+msgid "Update Framework"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-interface.php:87
+#, fuzzy
+msgid "Readme"
+msgstr "Nama"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-medialibrary-uploader.php:66
+msgid "CoLabsFramework Internal Container"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-medialibrary-uploader.php:192
+msgid "Upload"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-medialibrary-uploader.php:229
+msgid "View File"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-medialibrary-uploader.php:422
+msgid "Gallery"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-medialibrary-uploader.php:422
+msgid "Previously Uploaded"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-readme.php:29
+msgid " - README.txt Theme File"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/admin-seo.php:311
+msgid "SEO"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:51
+msgid "Customize the Shortcode"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:60
+msgid "Preview"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:74
+msgid "Shortcode Generator Error"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:77
+#, php-format
+msgid "Your version of the CoLabsFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:79
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:93
+msgid "What to do now?"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:81
+msgid "Upgrading your theme, or rather the CoLabsFramework portion of it, will do the trick."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:83
+#, php-format
+msgid "The framework is a collection of functionality that all CoLabsThemes have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:85
+#, php-format
+msgid "There's a tutorial on how to do this on colorlabsproject.com: %sHow to upgradeyour theme%s."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:87
+msgid "<strong>Remember:</strong> Every Ninja has a backup plan. Safe or not, always backup your theme before you update it or make changes to it."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:91
+msgid "Looks like your active theme is not from ColorLabs. The shortcode generator only works with themes from ColorLabs."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/functions/js/shortcode-generator/dialog.php:95
+msgid "Pick a fight: (1) If you already have a theme from ColorLabs, install and activate it or (2) if you don't yet have one of the awesome ColorLabs theme head over to the <a href=\"http://colorlabsproject.com/themes/\" target=\"_blank\" title=\"ColorLabs Gallery\">ColorLabs Gallery</a> and get one."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:10
+msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:19
+#, php-format
+msgid "<a href=\"%3$s\">%1$s %2$s</a>&nbsp;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:59
+msgid "Edit"
+msgstr "Ubah"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:27
+msgid "Reply"
+msgstr "Balas"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:28
+msgid "Log in to reply."
+msgstr "Masuk untuk membalas"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:55
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-comments.php:60
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:193
+msgid "&laquo; Prev"
+msgstr "&laquo; Sebelumnya"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:194
+msgid "Back to home"
+msgstr "Kembali ke Awal"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:271
+msgid "Recent Entries"
+msgstr "Artikel Terbaru"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:272
+msgid "Go To Archive"
+msgstr "Lihat Arsip"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:320
+msgid "on "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:361
+msgid "Articles by"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:367
+msgid "Topic"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:374
+msgid "Tag archive for"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:379
+msgid "Format Post for "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:384
+msgid "Note"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:389
+msgid "Archive for"
+msgstr "Arsip untuk"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:395
+msgid "Search Results for "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:401
+msgid "404 Error (Page Not Found)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:877
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar anda sedang dimoderasi."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-functions.php:886
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/theme-options.php:316
+msgid " Image/Video Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-about.php:9
+msgid "ColorLabs - About Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-about.php:55
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-embed.php:90
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-follow.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-popular-post.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-recent-comments.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-search.php:36
+msgid "Title:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-about.php:59
+msgid "Page:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:10
+msgid "ColorLabs - Ad 300"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:66
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:61
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-flickr.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:43
+msgid "Title (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:70
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:65
+msgid "Ad Code:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:75
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:70
+msgid "Image Url:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:79
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:74
+msgid "Link URL:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-ad-sidebar.php:83
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:78
+msgid "Alt text:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-adspace125.php:10
+msgid "ColorLabs - Ad 125"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-embed.php:11
+msgid "ColorLabs - Embed/Video"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-embed.php:94
+#, fuzzy
+msgid "Category:"
+msgstr "Kategori"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-embed.php:107
+msgid "Tag:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-embed.php:112
+msgid "Size:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-flickr.php:10
+msgid "ColorLabs - Flickr"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-flickr.php:15
+msgid "Photos on flickr"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-flickr.php:46
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-flickr.php:50
+msgid "Number:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-follow.php:9
+msgid "ColorLabs - Follow"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-follow.php:17
+#, fuzzy
+msgid "Follow Us"
+msgstr "Ikuti Kami"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-popular-post.php:9
+msgid "ColorLabs - Popular Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-popular-post.php:19
+msgid "Popular Posts"
+msgstr "Artikel Terpopuler"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-popular-post.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-recent-comments.php:43
+msgid "Number of posts:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-popular-post.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-recent-comments.php:48
+msgid "Thumbnail Size (0=disable):"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-recent-comments.php:9
+msgid "ColorLabs - Recent Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-recent-comments.php:19
+msgid "Recent Comments"
+msgstr "Komentar Terakhir"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-search.php:9
+msgid "ColorLabs - Search"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:9
+msgid "ColorLabs - Twitter Stream"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:24
+msgid "Follow"
+msgstr "Ikuti"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:24
+msgid "on Twitter"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:47
+msgid "Username:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\modernizm/includes/widgets/widget-colabs-twitter.php:51
+msgid "Limit:"
+msgstr ""
+
+#~ msgid "Error 404"
+#~ msgstr "Error 404"
+
+#~ msgid "Thanks"
+#~ msgstr "Terima Kasih"
+
+#~ msgid ""
+#~ "Your email was successfully sent. I will be in touch soon. Thanks for "
+#~ "visiting!"
+#~ msgstr ""
+#~ "Email anda telah terkirim. Saya akan menghubungi anda secepatnya. Terima "
+#~ "kasih telah berkunjung!"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Subject"
+#~ msgstr "Subjek"
+
+#~ msgid "Message"
+#~ msgstr "Pesan"
+
+#~ msgid "Send a copy of this email to yourself"
+#~ msgstr "Kirim salinan email ini ke email anda"
+
+#~ msgid "If you want to submit this form, do not enter anything in this field"
+#~ msgstr ""
+#~ "Jika anda ingin mengisi formulir ini, jangan mgnisi apapun di kotak ini"
+
+#~ msgid "Email us"
+#~ msgstr "Kirim email ke kami"
+
+#~ msgid "Recomended Links"
+#~ msgstr "Saran Link"

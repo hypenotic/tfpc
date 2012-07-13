@@ -1,0 +1,72 @@
+/* twitter */
+div.tb_tweet {
+	font-size:9.5pt;
+	border-top:0;}
+	
+.tb_tweet-info a {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-style:normal;
+	color:#888 !important;
+	font-size:11px;
+	display:block;
+	padding-bottom:15px}
+
+div.tb_tweetlist, div.tb_tweet {
+	border:0 !important}
+	
+a.tb_archivelink {
+	float:left !important}
+	
+.tb_author a {
+	font-family:georgia;
+	font-size:11pt;}
+
+.tb_msg a {
+	color:#86796d !important}
+	
+
+/* newsletter */
+.form-newsletter input[type=text], 
+.form-contact input[type=text], .form-contact textarea {
+	width:95%;
+	font-family:verdana;
+	color:#808080;
+	padding:5px}
+
+.form-newsletter label, .form-contact label {
+	display:none}
+
+.form-newsletter input[type=submit], .form-contact input[type=submit] {
+	text-transform:uppercase;
+	background:#333333;
+	color:#fff;
+	font-size:8pt;
+	border:0;
+	font-family:georgia;
+	padding:5px;
+	cursor:pointer}
+	
+.form-newsletter input[type=submit]:hover {
+	color:orange}
+
+.form-contact li {
+	list-style:none;
+	padding:0;
+	margin:0;}
+	
+.form-contact input[type=text], .form-contact textarea {
+	position:relative;
+	left:-20px;
+	font-size:9pt;
+	margin-bottom:10px}
+	
+/* nrelate */
+.nr_inner li {
+	position:relative;
+	left:15px;
+	border:0 !important;
+	padding:0 5px 5px 0 !important;}
+	
+.nrelate {
+	padding:0 10px 10px 15px !important;
+	border-bottom:1px solid #DDDDDD !important;}
