@@ -239,7 +239,7 @@ if (!function_exists('colabs_tabs_popular')) {
 /*-----------------------------------------------------------------------------------*/
 /* CoLabsTabs - Latest Posts */
 /*-----------------------------------------------------------------------------------*/
-if (!function_exists('colabs_latest_post') && !is_page('links-resources')) {
+if (!function_exists('colabs_latest_post')) {
 	function colabs_latest_post( $posts = 5, $class = '' ) {
 		global $post,$wpdb;
 			
@@ -266,29 +266,31 @@ if (!function_exists('colabs_latest_post') && !is_page('links-resources')) {
 				$url[] = get_year_link($arcresult->year);
 			}
 	?>
-	<div class="recent-entry columns <?php echo $class;?>">
-		<div class="recent-title column <?php echo $class;?>">
-			<h6 class="floatleft"><?php _e('Recent Entries','colabsthemes');?></h6>
-			<a href="<?php  echo $url[0];?>" class="link-button floatright"><?php _e('Go To Archive','colabsthemes');?></a>
+	<?php if(!is_page('links-resources')):?>
+		<div class="recent-entry columns <?php echo $class;?>">
+			<div class="recent-title column <?php echo $class;?>">
+				<h6 class="floatleft"><?php _e('Recent Entries','colabsthemes');?></h6>
+				<a href="<?php  echo $url[0];?>" class="link-button floatright"><?php _e('Go To Archive','colabsthemes');?></a>
+			</div>
+			<div class="recent-list columns">	
+		<?php
+			query_posts(array(
+				'category__not_in' => array($cat_headline,$cat_featured),
+				'showposts' => $posts,
+				));
+			if ( have_posts() ) :
+			while( have_posts() ) : the_post() ;		
+		?>
+			<div class="column col2">
+				<?php colabs_image('width=138&height=91&play=true'); ?>
+				<h4 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'colabsthemes' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h4>
+				<p><?php excerpt(); ?></p>
+				<a class="more-link" title="<?php printf( esc_attr__( 'Permalink to %s', 'colabsthemes' ), the_title_attribute( 'echo=0' ) ); ?>" href="<?php the_permalink();?>"><?php _e('Continue Reading','colabsthemes');?> &rarr;</a>
+			</div>
+		<?php endwhile; endif; ?>
+			</div>
 		</div>
-		<div class="recent-list columns">	
-	<?php
-		query_posts(array(
-			'category__not_in' => array($cat_headline,$cat_featured),
-			'showposts' => $posts,
-			));
-		if ( have_posts() ) :
-		while( have_posts() ) : the_post() ;		
-	?>
-		<div class="column col2">
-			<?php colabs_image('width=138&height=91&play=true'); ?>
-			<h4 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'colabsthemes' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h4>
-			<p><?php excerpt(); ?></p>
-			<a class="more-link" title="<?php printf( esc_attr__( 'Permalink to %s', 'colabsthemes' ), the_title_attribute( 'echo=0' ) ); ?>" href="<?php the_permalink();?>"><?php _e('Continue Reading','colabsthemes');?> &rarr;</a>
-		</div>
-	<?php endwhile; endif; ?>
-		</div>
-	</div>
+	<?php endif;?>
 	<?php
 	}
 }
