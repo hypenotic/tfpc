@@ -284,6 +284,7 @@ textarea {
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 	margin: 10px 8px;
 	font-weight: bold;
+	line-height: 32px;
 }
 
 
