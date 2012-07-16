@@ -41,30 +41,25 @@ Template Name: Resources
  	<div class="entry-content column col12">
  		<h3>Tags</h3>
  		<ul id="resource-tags">
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
+ 			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+ 			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+ 			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+ 			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+ 			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+			<li><a href="#">Foo</a></li>
+ 			<li><a href="#">Bar</a></li>
+ 			<li><a href="#">Baz</a></li>
+
  		</ul>
  		</ul>
  	</div>	
