@@ -198,9 +198,14 @@ textarea {
 	margin-bottom:5px
 }
 .recent-list .column { 
-	border-left:1px solid transparent;
+	border-right:1px solid #ddd;
 	padding-bottom:30px;
 }
+
+.recent-list .column:last-child {
+	border-right: none;
+}
+
 .recent-list .column.equal-height {
 	padding-bottom:15px
 }
