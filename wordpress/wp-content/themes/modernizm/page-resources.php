@@ -17,3 +17,4 @@ Template Name: Resources
  		<div class="column col2"><h4 class="entry-title">Main Category</h4></div>
  	</div>	
  </div>
+ <?php get_footer(); ?>
