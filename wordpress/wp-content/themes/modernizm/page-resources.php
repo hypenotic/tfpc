@@ -6,28 +6,10 @@ Template Name: Resources
  <?php get_header();?>
  <div id="content" class="recent-list columns col12">
  	<?php while ( have_posts() ) : the_post(); ?>
- 	<div class="entry-content column col8">
+ 	<div class="entry-content column col12">
  		<?php the_content();?>
  	</div>
- 	<div class="entry-content column col4">
- 		<h3>Tags</h3>
- 		<ul id="resource-tags">
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 			<li>Foo</li>
- 			<li>Bar</li>
- 			<li>Baz</li>
- 		</ul>
- 	</div>
- 	
- 	<?php endwhile; ?>
+	<?php endwhile; ?>
  	<div class="recent-entry columns col12">
  		<div class="recent-list columns">
 	 		<div class="column col2">
@@ -55,6 +37,23 @@ Template Name: Resources
 	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
 			</div>
 		</div>
+ 	</div>
+ 	<div class="entry-content column col12">
+ 		<h3>Tags</h3>
+ 		<ul id="resource-tags">
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 		</ul>
  	</div>	
  </div>
  <?php get_footer(); ?>
