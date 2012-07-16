@@ -38,8 +38,25 @@ Template Name: Resources
 			</div>
 		</div>
  	</div>
+ 	<script type="text/javascript">
+jQuery.expr[':'].missing = function (elem, index, match) {
+        return (elem.textContent || elem.innerText || "").indexOf(match[3]) == -1;
+    }
+    $(document).ready(function () {
+
+        var query;
+        query = $("#txtFilter").val();
+        $("#txtFilter").keyup(function () {
+            query = $(this).val();
+
+            $("ul#resource-tags li:missing('" + query.toString() + "')").hide();
+            $("ul#resource-tags li:contains('" + query.toString() + "')").show();
+
+        });
+    });
+ 	</script>
  	<div class="entry-content column col12">
- 		<h3>Tags <input type="text" placeholder="filter" style="position:relative;top:-3px;left:3px;" /></h3>
+ 		<h3>Tags <input type="text" id="txtFilter" name="txtFilter" placeholder="filter" style="position:relative;top:-3px;left:3px;" /></h3>
  		<ul id="resource-tags">
  			<li><a href="#">Foo</a></li>
  			<li><a href="#">Bar</a></li>
