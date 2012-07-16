@@ -39,7 +39,7 @@ Template Name: Resources
 		</div>
  	</div>
  	<div class="entry-content column col12">
- 		<h3>Tags <input type="text" placeholder="filter" /></h3>
+ 		<h3>Tags <input type="text" placeholder="filter" style="position:relative;top:-3px;left:3px;" /></h3>
  		<ul id="resource-tags">
  			<li><a href="#">Foo</a></li>
  			<li><a href="#">Bar</a></li>
