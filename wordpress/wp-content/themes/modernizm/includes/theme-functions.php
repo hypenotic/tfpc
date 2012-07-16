@@ -239,7 +239,7 @@ if (!function_exists('colabs_tabs_popular')) {
 /*-----------------------------------------------------------------------------------*/
 /* CoLabsTabs - Latest Posts */
 /*-----------------------------------------------------------------------------------*/
-if (!function_exists('colabs_latest_post') && !is_single('136') {
+if (!function_exists('colabs_latest_post') && !is_single('136')) {
 	function colabs_latest_post( $posts = 5, $class = '' ) {
 		global $post,$wpdb;
 			
