@@ -277,8 +277,6 @@ textarea {
 
 .entry-content ul#resource-tags li {
 	display: inline;
-	padding: 3px 6px;
-	border-radius: 2px;
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 	margin: 10px 8px;
@@ -290,6 +288,8 @@ textarea {
 	text-decoration: none;
 	color: #fff;
 	background: #F26522;
+	padding: 3px 6px;
+	border-radius: 2px;
 	-webkit-transition-duration: 700ms;
 	-moz-transition-duration: 700ms;
 	-ms-transition-duration: 700ms;
