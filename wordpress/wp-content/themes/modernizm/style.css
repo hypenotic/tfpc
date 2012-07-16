@@ -271,6 +271,7 @@ textarea {
 
 .entry-content ul#resource-tags {
 	margin-top: 12px;
+	margin-left: -8px;
 	list-style-type: none;
 }
 
@@ -285,9 +286,7 @@ textarea {
 	font-weight: bold;
 }
 
-.entry-content ul#resource-tags li:first-child{
-	margin-left: 0;
-}
+
 .page .entry-content {
 	width:auto;
 	border-color:transparent
