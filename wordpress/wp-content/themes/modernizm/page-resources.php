@@ -6,9 +6,27 @@ Template Name: Resources
  <?php get_header();?>
  <div id="content" class="recent-list columns col12">
  	<?php while ( have_posts() ) : the_post(); ?>
- 	<div class="entry-content column col12">
+ 	<div class="entry-content column col8">
  		<?php the_content();?>
  	</div>
+ 	<div class="entry-content column col4">
+ 		<h3>Tags</h3>
+ 		<ul id="resource-tags">
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 			<li>Foo</li>
+ 			<li>Bar</li>
+ 			<li>Baz</li>
+ 		</ul>
+ 	</div>
+ 	
  	<?php endwhile; ?>
  	<div class="recent-entry columns col12">
  		<div class="recent-list columns">

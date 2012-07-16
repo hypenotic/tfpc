@@ -263,6 +263,20 @@ textarea {
 	border-right:1px solid #ddd;
   font-size:15px
 }
+
+.entry-content ul#resource-tags {
+	display: inline;
+	list-style-type: none;
+}
+
+.entry-content ul#resource-tags li {
+	background: #F26522;
+	padding: 3px 6px;
+	border-radius: 2px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	margin: 10px 8px;
+}
 .page .entry-content {
 	width:auto;
 	border-color:transparent
