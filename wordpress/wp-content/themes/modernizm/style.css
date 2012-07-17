@@ -125,7 +125,13 @@ h1, h2, h3, h4, h5, h6, .entry-title, #comments h6,
 input, textarea {
 	border:1px solid #ddd;
 	padding:5px 2px;
-	background:#fff
+	background:#fff;
+	-webkit-transition-duration: 700ms;
+	-moz-transition-duration: 700ms;
+	-ms-transition-duration: 700ms;
+	-o-transition-duration: 700ms;
+	transition-duration: 700ms;
+
 }
 
 input:focus, textarea:focus {
