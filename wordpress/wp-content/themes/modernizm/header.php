@@ -15,14 +15,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/custom.css">
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 	<script type="text/javascript">
-	jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
-    		return (elem.textContent || elem.innerText || "").toLowerCase().indexOf(match[3]) == -1;
-    	}
-    });
-    jQuery.extend($.expr[':'], {'containsi': function(elem, i, match, array)
-	{
-	return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
+		return (elem.textContent || elem.innerText || "").toLowerCase().indexOf(match[3]) == -1;
 	}
+});
+jQuery.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+	return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+}
 });
 	</script>
 

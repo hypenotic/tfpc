@@ -273,6 +273,7 @@ textarea {
 	margin-top: 12px;
 	margin-left: -8px;
 	list-style-type: none;
+	max-width: 985px;
 }
 
 .entry-content ul#resource-tags li {
