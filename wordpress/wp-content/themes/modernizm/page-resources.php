@@ -68,9 +68,9 @@ Template Name: Resources
 		        query = $("#txtFilter").val().toLowerCase();
 		        $("#txtFilter").keyup(function () {
 		            query = $(this).val().toLowerCase();
-
+					$("ul#resource-tags li:containsi('" + query.toString() + "')").show();
 		            $("ul#resource-tags li:missing('" + query.toString() + "')").hide();
-		            $("ul#resource-tags li:contains('" + query.toString() + "')").show();
+		            
 
 		        });
 		    });
