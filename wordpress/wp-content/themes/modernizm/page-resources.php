@@ -69,7 +69,7 @@ Template Name: Resources
  			<li><a href="#">Food Strategy</a></li>
  			<li><a href="#">Food Movement</a></li>
  			<li><a href="#">Food Skills</a></li>
- 			<li><a href="#">Food Citizenship</a></li>
+ 			
 		</ul>
 		<div class="cf"></div>
  		 	<script type="text/javascript">
