@@ -14,27 +14,27 @@ Template Name: Resources
  		<div class="recent-list columns" id="main-cats">
 	 		<div class="column col2">
 	 			<h4 class="entry-title">Introduction</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>Food security, food sovereignty and the history of food movements and networks in the GTA. </p>
 			</div>
 			<div class="column col2">
 	 			<h4 class="entry-title">Availability</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>Food production, processing and distribution.</p>
 			</div>
 			<div class="column col2">
 	 			<h4 class="entry-title">Accessibility</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>The changing food environment: purchasing, procurement, income and inclusion.</p>
 			</div>
 			<div class="column col2">
 	 			<h4 class="entry-title">Acceptability</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>Diversity leading change.</p>
 			</div>
 			<div class="column col2">
 	 			<h4 class="entry-title">Adequacy</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>Envisioning a sustainable food system.</p>
 			</div>
 			<div class="column col2">
 	 			<h4 class="entry-title">Agency</h4>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ita affectus, beatum esse numquam probabis; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Duo Reges: constructio interrete. Non laboro, inquit, de nomine. </p>
+	 			<p>Taking action for a better food system.</p>
 			</div>
 		</div>
  	</div>
