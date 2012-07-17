@@ -63,10 +63,11 @@ Template Name: Resources
 
  		</ul>
  		 	<script type="text/javascript">
-			jQuery.expr[':'].missing = function (elem, index, match) {
-        		return (elem.textContent || elem.innerText || "").indexOf(match[3]) == -1;
-    		}
-		    $(document).ready(function () {
+			jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
+        			return (elem.textContent || elem.innerText || "").indexOf(match[3]) == -1;
+    			}
+    		});
+    		$(document).ready(function () {
 
 		        var query;
 		        query = $("#txtFilter").val();
