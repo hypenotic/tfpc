@@ -14,6 +14,12 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/custom.css">
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script type="text/javascript">
+	jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
+    		return (elem.textContent || elem.innerText || "").indexOf(match[3]) == -1;
+    	}
+    });
+	</script>
 
 <?php if ( function_exists( 'colabs_head') ) colabs_head(); ?>
 <?php wp_head(); ?>
