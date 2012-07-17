@@ -70,9 +70,8 @@ Template Name: Resources
  			<li><a href="#">Food Movement</a></li>
  			<li><a href="#">Food Skills</a></li>
  			<li><a href="#">Food Citizenship</a></li>
-
-
- 		</ul>
+		</ul>
+		<div class="cf"></div>
  		 	<script type="text/javascript">
 			$(document).ready(function () {
 				var query;
