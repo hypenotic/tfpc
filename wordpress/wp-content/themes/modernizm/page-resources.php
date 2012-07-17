@@ -65,11 +65,11 @@ Template Name: Resources
  		 	<script type="text/javascript">
 			$(document).ready(function () {
 				var query;
-		        query = $("#txtFilter").val();
+		        query = $("#txtFilter").val().toLowerCase();
 		        $("#txtFilter").keyup(function () {
-		            query = $(this).val();
+		            query = $(this).val().toLowerCase();
 
-		            $("ul#resource-tags li:missing('" + query.toString() + "')").hide(400);
+		            $("ul#resource-tags li:missing('" + query.toString() + "')").hide();
 		            $("ul#resource-tags li:contains('" + query.toString() + "')").show();
 
 		        });
