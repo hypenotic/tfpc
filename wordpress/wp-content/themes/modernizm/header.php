@@ -16,7 +16,7 @@
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 	<script type="text/javascript">
 	jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
-    		return (elem.textContent || elem.innerText || "").indexOf(match[3]) == -1;
+    		return (elem.textContent.toLowerCase() || elem.innerText.toLowerCase() || "").indexOf(match[3]) == -1;
     	}
     });
 	</script>
