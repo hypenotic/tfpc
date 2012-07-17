@@ -207,7 +207,7 @@ textarea {
 	margin-bottom:0
 }
 .recent-list, .recent-list .row {
-	/*background:url(images/border/grey/border-6col.jpg) repeat-y left top*/
+	background:url(images/border/grey/border-6col.jpg) repeat-y left top
 }
 #content.recent-list {
 	background:none
@@ -221,7 +221,7 @@ textarea {
 	margin-bottom:5px
 }
 .recent-list .column { 
-	border-right:1px solid #ddd;
+	
 	padding-bottom:30px;
 }
 
