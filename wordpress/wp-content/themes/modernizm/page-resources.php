@@ -69,7 +69,7 @@ Template Name: Resources
 		        $("#txtFilter").keyup(function () {
 		            query = $(this).val();
 
-		            $("ul#resource-tags li:missing('" + query.toString() + "')").hide();
+		            $("ul#resource-tags li:missing('" + query.toString() + "')").fadeOut(400);
 		            $("ul#resource-tags li:contains('" + query.toString() + "')").show();
 
 		        });
