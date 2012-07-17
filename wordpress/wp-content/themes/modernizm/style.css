@@ -235,17 +235,17 @@ textarea {
 .recent-list .col10 {
 	padding-bottom:15px;
 	border-bottom:1px solid #ddd;
-	border-left:1px solid transparent
+	border-left:1px solid transparent;
 }
 .recent-list .row, .home .recent-list {
 	margin:0;
 	border-bottom:1px solid #ddd;
 }
 .recent-list .row {
-	float:left
+	float:left;
 }
 .recent-list .row.partial {
-	padding-right:1px
+	padding-right:1px;
 }
 
 /* Popular, Recent Comments & flickr */
@@ -297,7 +297,7 @@ textarea {
 .entry-content ul#resource-tags li {
 	display: inline;
 	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	font-size: 12px;
 	margin: 8px;
 	font-weight: bold;
 	float: left;
@@ -307,7 +307,7 @@ textarea {
 .entry-content ul#resource-tags li a {
 	text-decoration: none;
 	color: #fff;
-	background: #F26522;
+	background: #f58855;
 	padding: 3px 6px;
 	border-radius: 2px;
 	-webkit-transition-duration: 700ms;
