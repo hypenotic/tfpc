@@ -31,7 +31,13 @@
 			<div class="entry-text column col5 floatright">
 				<h3 class="entry-title"><?php the_title(); ?></h3>
 				<div class="entry-meta">
-					<?php printf( __('%1$s by %2$s', 'colabsthemes'), get_the_date(), get_the_author() ); ?>
+					<?php printf( __('%1$s by %2$s', 'colabsthemes'), get_the_date(), get_the_author(),  ); ?>
+					<br />
+					<?php
+					$category = get_the_category(); 
+					if($category[0]){
+						echo 'Filed Under: <a href="'.get_category_link($category[0]->term_id ).'">'.$category[0]->cat_name.'</a>';
+					?>
 				</div>			
 				<?php the_content(); ?>
 
