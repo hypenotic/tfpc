@@ -47,7 +47,7 @@
 					if ($posttags) {
 						echo '<ul id="resource-tags">';
 						foreach($posttags as $tag) {
-							echo '<li><a href="'.get_site_url().'/tag/'.$tag->slug.'">'.$tag->name.'</a></li>';
+							echo '<li><a href="'.get_settings('home').'/tag/'.$tag->slug.'">'.$tag->name.'</a></li>';
 						}
 						echo '</ul>';
 					}
