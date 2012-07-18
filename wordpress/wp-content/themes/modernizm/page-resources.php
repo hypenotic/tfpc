@@ -14,32 +14,50 @@ Template Name: Resources
  		<div class="recent-list columns" id="main-cats">
 	 		<div class="column col2">
 	 			<?php
-			    // Get the ID of a given category
-			    $category_id = get_cat_ID( 'Introduction' );
-				// Get the URL of this category
-			    $category_link = get_category_link( $category_id );
+			   	$category_id = get_cat_ID( 'Introduction' );
+				$category_link = get_category_link( $category_id );
 				?>
 				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Introduction">Introduction</a></h4>
 	 			<p>Food security, food sovereignty and the history of food movements and networks in the GTA. </p>
 			</div>
 			<div class="column col2">
-	 			<h4 class="entry-title">Availability</h4>
+	 			<?php
+			   	$category_id = get_cat_ID( 'Availability' );
+				$category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Availability">Availability</a></h4>
 	 			<p>Food production, processing and distribution.</p>
 			</div>
 			<div class="column col2">
-	 			<h4 class="entry-title">Accessibility</h4>
+	 			<?php
+			   	$category_id = get_cat_ID( 'Accessibility' );
+				$category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Accessibility">Accessibility</a></h4>
 	 			<p>The changing food environment: purchasing, procurement, income and inclusion.</p>
 			</div>
 			<div class="column col2">
-	 			<h4 class="entry-title">Acceptability</h4>
+	 			<?php
+			   	$category_id = get_cat_ID( 'Acceptability' );
+				$category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Acceptability">Acceptability</a></h4>
 	 			<p>Diversity leading change.</p>
 			</div>
 			<div class="column col2">
-	 			<h4 class="entry-title">Adequacy</h4>
+	 			<?php
+			   	$category_id = get_cat_ID( 'Adequacy' );
+				$category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Adequacy">Adequacy</a></h4>
 	 			<p>Envisioning a sustainable food system.</p>
 			</div>
 			<div class="column col2">
-	 			<h4 class="entry-title">Agency</h4>
+	 			<?php
+			   	$category_id = get_cat_ID( 'Agency' );
+				$category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Agency">Agency</a></h4>
 	 			<p>Taking action for a better food system.</p>
 			</div>
 		</div>
