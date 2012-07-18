@@ -13,7 +13,13 @@ Template Name: Resources
  	<div class="recent-entry columns col12">
  		<div class="recent-list columns" id="main-cats">
 	 		<div class="column col2">
-	 			<h4 class="entry-title">Introduction</h4>
+	 			<?php
+			    // Get the ID of a given category
+			    $category_id = get_cat_ID( 'Introduction' );
+				// Get the URL of this category
+			    $category_link = get_category_link( $category_id );
+				?>
+				<h4 class="entry-title"><a href="<?php echo esc_url( $category_link ); ?>" title="Introduction">Introduction</a></h4>
 	 			<p>Food security, food sovereignty and the history of food movements and networks in the GTA. </p>
 			</div>
 			<div class="column col2">
