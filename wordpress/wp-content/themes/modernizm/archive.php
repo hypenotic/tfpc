@@ -3,7 +3,7 @@
 <div id="content" class="recent-list columns col10">
 <div class="column col10">
  <h3><?php dynamictitles();?></h3>
- <p><?php echo get_query_var('cat');?></p>
+ <p><?php get_cat_name(get_query_var('cat')); ?></p>
 </div>
 <?php if ( have_posts() ) {?>
 <?php
