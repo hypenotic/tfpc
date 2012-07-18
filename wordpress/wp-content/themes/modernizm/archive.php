@@ -3,6 +3,11 @@
 <div id="content" class="recent-list columns col10">
 <div class="column col10">
  <h3><?php dynamictitles();?></h3>
+ <?php
+global $post;
+$categories = get_the_category($post->ID);
+echo '<p>'.$categories[0].'</p>';
+?>
 </div>
 <?php if ( have_posts() ) {?>
 <?php
