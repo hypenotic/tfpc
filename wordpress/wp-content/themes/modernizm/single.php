@@ -31,9 +31,7 @@
 			<div class="entry-text column col5 floatright">
 				<h3 class="entry-title"><?php the_title(); ?></h3>
 				<div class="entry-meta">
-					<?php printf( __('%1$s by %2$s', 'colabsthemes'), get_the_date(), get_the_author(),  ); ?>
-					<br />
-					
+					<?php printf( __('%1$s by %2$s', 'colabsthemes'), get_the_date(), get_the_author() ); ?>
 				</div>			
 				<?php the_content(); ?>
 
