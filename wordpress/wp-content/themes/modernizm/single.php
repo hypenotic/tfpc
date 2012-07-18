@@ -42,7 +42,16 @@
 				<?php the_content(); ?>
 
 				<div class="post-detail">
-					<?php the_tags('', ', ', ''); ?>
+					<?php
+					$posttags = get_the_tags();
+					if ($posttags) {
+						echo '<ul id="resource-tags">';
+						foreach($posttags as $tag) {
+							echo '<li><a href="'.get_site_url().'/tag/'.$tag->slug.'">'.$tag->name.'</a></li>';
+						}
+						echo '</ul>';
+					}
+					?>
 				</div>
 				<?php echo colabs_share();?>
 			</div>
