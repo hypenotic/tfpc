@@ -6,7 +6,7 @@
 	$cat_id =  get_query_var('cat');
 	if(get_cat_name($cat_id) == "Introduction" || get_cat_name($cat_id) == "Availability" || get_cat_name($cat_id) == "Accessibility" || get_cat_name($cat_id) == "Acceptability" || get_cat_name($cat_id) == "Adequacy" || get_cat_name($cat_id) == "Agency"){
 		echo '<h3>'.get_cat_name($cat_id).'</h3>';
-		echo '<p>'.category_description( $category_id ).'</p>';
+		echo '<p>'.category_description( $cat_id ).'</p>';
 	}
  	else {
 		echo '<h3>'.dynamictitles().'</h3>';
