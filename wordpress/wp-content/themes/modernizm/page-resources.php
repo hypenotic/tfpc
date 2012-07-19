@@ -67,9 +67,20 @@ Template Name: Resources
  		<h3>Tags <input type="text" id="txtFilter" name="txtFilter" placeholder="filter" style="position:relative;top:-3px;left:3px;" /></h3>
  		<ul id="resource-tags">
  			<li><a href="<?php echo get_settings('home').'/tag/food-sovereignty';?>">Food Sovereignty</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/food-security';?>">Food Security</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/golden-horseshoe';?>">Golden Horseshoe</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/toronto-food-policy-council';?>">Toronto Food Policy Council</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/tfpc';?>">TFPC</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/urban-agriculture';?>">Urban Agriculture</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/rooftop-garden';?>">Rooftop Garden</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/backyard';?>">Backyard</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/csa';?>">CSA</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/bees';?>">Bees</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/chickens';?>">Chickens</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/composting';?>">Composting</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/community-gardening';?>">Community Gardening</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/transportation';?>">Transporation</a></li>
+ 			<li><a href="<?php echo get_settings('home').'/tag/processing';?>">Processing</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/mobile-vending';?>">Mobile Vending</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/farmers-markets';?>">Farmer's Markets</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/ontario-food-terminal';?>">Ontario Food Terminal</a></li>
