@@ -142,6 +142,8 @@ textarea {
 	resize:none
 }
 
+#txtFilter {width: 180px;}
+
 /* #Header
 ================================================== */
 #header { 
