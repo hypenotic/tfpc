@@ -355,6 +355,16 @@ textarea {
 .social_share .colabs-sc-twitter.left { margin:0 }
 .shortcode-google-plusone { width:75px }
 
+
+/* Disqus */
+
+#disqus_thread {
+	float: right;
+	margin: 20px 10px 10px 10px;
+}
+
+
+
 /* Wordpress attachment */
 .wp-caption {
   background:#f3f3f3;
