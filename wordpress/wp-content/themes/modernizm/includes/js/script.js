@@ -82,3 +82,10 @@ $(document).ready(function(){
     
 });
 })(jQuery);
+
+$(document).ready(function(){
+	console.log('ready');
+  if($('#featuredContent').length){
+    $('#featuredContent').orbit();
+  }
+});

@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/colabs-css.css">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/custom.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/foundation.css">
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 	<script type="text/javascript">
 jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {

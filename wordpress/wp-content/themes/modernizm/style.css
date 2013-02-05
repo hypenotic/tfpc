@@ -54,6 +54,14 @@ p, dl, hr, ol, ul, pre, table, address, fieldset, figure {
 }
 em { font-style:italic }
 
+
+*, *:before, *:after {
+-webkit-box-sizing: content-box !important;
+-moz-box-sizing: content-box !important;
+box-sizing: content-box !important;
+}
+
+
 /* #Global
 ================================================== */
 body {
