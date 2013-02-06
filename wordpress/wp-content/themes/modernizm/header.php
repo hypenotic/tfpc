@@ -13,38 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/colabs-css.css">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/custom.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/foundation.css">
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-	<script type="text/javascript">
-jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
-		return (elem.textContent || elem.innerText || "").toLowerCase().indexOf(match[3]) == -1;
-	}
-});
-jQuery.extend($.expr[':'], {'containsi': function(elem, i, match, array){
-	return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
-}
-});
-	</script>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/flexslider.css">
 
 <?php if ( function_exists( 'colabs_head') ) colabs_head(); ?>
 <?php wp_head(); ?>
-
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-		jQuery.fn.cleardefault = function() {
-		return this.focus(function() {
-			if( this.value == this.defaultValue ) {
-				this.value = "";
-			}
-		}).blur(function() {
-			if( !this.value.length ) {
-				this.value = this.defaultValue;
-			}
-		});
-	};
-	jQuery(".clearit input, .clearit textarea").cleardefault();
-	});
-</script>
 </head>
 
 <body <?php body_class(); ?>>

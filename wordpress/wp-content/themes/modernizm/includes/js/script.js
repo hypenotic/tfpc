@@ -1,4 +1,15 @@
+jQuery.extend(jQuery.expr[':'], {missing: function (elem, index, match) {
+		return (elem.textContent || elem.innerText || "").toLowerCase().indexOf(match[3]) == -1;
+	}
+});
+jQuery.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+	return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+}
+});
+
 (function($){
+
+
 
 /* Equal height plugin
 ------------------------------*/
@@ -83,9 +94,12 @@ $(document).ready(function(){
 });
 })(jQuery);
 
+
 $(document).ready(function(){
 	console.log('ready');
-  if($('#featuredContent').length){
-    $('#featuredContent').orbit();
+  if($('.flexslider').length){
+    $('.flexslider').flexslider({
+    	directionNav: false
+    });
   }
 });
