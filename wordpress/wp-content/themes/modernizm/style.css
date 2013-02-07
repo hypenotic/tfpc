@@ -386,6 +386,12 @@ textarea {
 	margin: 20px 10px 10px 10px;
 }
 
+@media only screen and (max-width: 960px) {
+  #disqus_thread {
+  	float: none;
+  }
+}
+
 
 
 /* Wordpress attachment */
