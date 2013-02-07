@@ -187,7 +187,15 @@ textarea {
 }
 #topmenu select { display:none; }
 
-#featuredContent { border: none; margin-top: 10px; }
+#featuredContent { 
+	border: none; 
+	margin-top: 10px; 
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0);
+	-o-box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
 #featuredContent li { margin-left: 0; }
 #featuredContent a { display: inline-block; position: relative; }
 .slider-description { position: absolute; bottom: 0; background-color: hsla(331, 1%, 50%, 0.6); width: 100%; color: #fff; }
