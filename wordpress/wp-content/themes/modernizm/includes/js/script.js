@@ -115,7 +115,10 @@ $(document).ready(function(){
 	            interval: 60
 	        	},
             showUserFullNames: true,
-            showSource: true,
+            showTimestamp: false,
+            showActionReply: true,
+            showActionRetweet: true,
+            showActionFavorite: true,
         }
     });
 
