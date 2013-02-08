@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/custom.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/jquery.jtweetsanywhere.css">
 
 <?php if ( function_exists( 'colabs_head') ) colabs_head(); ?>
 <?php wp_head(); ?>

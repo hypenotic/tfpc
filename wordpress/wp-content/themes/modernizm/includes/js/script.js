@@ -96,10 +96,29 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-	console.log('ready');
+
+	// Load slider carousel on index page
   if($('.flexslider').length){
     $('.flexslider').flexslider({
     	directionNav: false
     });
   }
+
+  // load jtweetsanywhere in footer
+
+      $('#jTweetsAnywhere').jTweetsAnywhere({
+        username: 'TOfoodpolicy',
+        count: 3,
+        showTweetFeed: {
+        		autorefresh: {
+	            mode: 'trigger-insert',
+	            interval: 60
+	        	},
+            showUserFullNames: true,
+            showSource: true,
+        }
+    });
+
 });
+
+

@@ -6,7 +6,7 @@
 		if($cat_headline=='')$cat_headline=1;
 		$cat_featured=get_option('colabs_cat_featured');
 		if($cat_featured=='')$cat_featured=1;
-		query_posts('showposts=2&cat='.$cat_headline);
+		query_posts('cat='.$cat_headline);
 		$i=1;
 		if ( have_posts() ) :
 		?>
