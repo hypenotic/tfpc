@@ -14,7 +14,7 @@ Template Name: Resource Category
 		echo '<p>'.category_description( $cat_id ).'</p>';
 		// echo category Table of Contents meta
 		$cat_data = get_option("category_$cat_id");
-		if (isset($cat_data['img'])){
+		if (isset($cat_data['toc'])){
 			echo '<div>'.$cat_data['toc'].'</div>';
 		}
 	}
