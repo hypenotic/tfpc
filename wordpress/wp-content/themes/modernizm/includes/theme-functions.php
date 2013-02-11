@@ -1133,8 +1133,7 @@ function extra_category_field( $tag ) {    //check for existing featured ID
 <tr class="form-field">
 <th scope="row" valign="top"><label for="cat_Image_url"><?php _e('Table Of Contents'); ?></label></th>
 <td>
-	<?php wp_editor($cat_meta['toc'] ? $cat_meta['toc'] : '', "Cat_meta[toc]" ); ?>
-<!-- <textarea name="Cat_meta[toc]" id="Cat_meta[toc]" rows="10" style="width:97%;" ><?php echo $cat_meta['toc'] ? $cat_meta['toc'] : ''; ?></textarea> -->
+	<?php wp_editor($cat_meta['toc'] ? $cat_meta['toc'] : '', 'Cat_meta[toc]' ); ?>
 </td>
 </tr>
 <?php
