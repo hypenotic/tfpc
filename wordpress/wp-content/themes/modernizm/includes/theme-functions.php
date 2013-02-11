@@ -1118,4 +1118,42 @@ function colabs_dropdown_pages($args = '') {
 		echo $output;
 	return $output;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/* Custom Table of Contents Field for Resources Categories */
+/*-----------------------------------------------------------------------------------*/
+
+add_action ( 'edit_category_form_fields', 'extra_category_field');
+add_action ( 'edited_category', 'save_extra_category_fileds');
+
+function extra_category_field( $tag ) {    //check for existing featured ID
+    $t_id = $tag->term_id;
+    $cat_meta = get_option( "category_$t_id");
+?>
+<tr class="form-field">
+<th scope="row" valign="top"><label for="cat_Image_url"><?php _e('Table Of Contents'); ?></label></th>
+<td>
+	<?php wp_editor($cat_meta['toc'] ? $cat_meta['toc'] : '', "Cat_meta[toc]" ); ?>
+<!-- <textarea name="Cat_meta[toc]" id="Cat_meta[toc]" rows="10" style="width:97%;" ><?php echo $cat_meta['toc'] ? $cat_meta['toc'] : ''; ?></textarea> -->
+</td>
+</tr>
+<?php
+}
+
+function save_extra_category_fileds( $term_id ) {
+    if ( isset( $_POST['Cat_meta'] ) ) {
+        $t_id = $term_id;
+        $cat_meta = get_option( "category_$t_id");
+        $cat_keys = array_keys($_POST['Cat_meta']);
+            foreach ($cat_keys as $key){
+            if (isset($_POST['Cat_meta'][$key])){
+                $cat_meta[$key] = $_POST['Cat_meta'][$key];
+            }
+        }
+        //save the option array
+        update_option( "category_$t_id", $cat_meta );
+    }
+}
+
+
 ?>
