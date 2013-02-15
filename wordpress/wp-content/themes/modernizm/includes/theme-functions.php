@@ -1126,31 +1126,26 @@ function colabs_dropdown_pages($args = '') {
 add_action ( 'edit_category_form_fields', 'extra_category_field');
 add_action ( 'edited_category', 'save_extra_category_fileds');
 
+add_filter( 'meta_content', 'wptexturize'        );
+add_filter( 'meta_content', 'convert_smilies'    );
+add_filter( 'meta_content', 'convert_chars'      );
+
 function extra_category_field( $tag ) {    //check for existing featured ID
-    $t_id = $tag->term_id;
-    $cat_meta = get_option( "category_$t_id");
+    $cat_meta = html_entity_decode( get_option( "category_toc"), ENT_QUOTES);
 ?>
 <tr class="form-field">
 <th scope="row" valign="top"><label for="cat_Image_url"><?php _e('Table Of Contents'); ?></label></th>
 <td>
-	<?php wp_editor($cat_meta['toc'] ? $cat_meta['toc'] : '', 'Cat_meta[toc]' ); ?>
+	<?php wp_editor($cat_meta ? $cat_meta : '', 'toc', array(‘wpautop’ => true, 'media_buttons' => false, 'tinymce' => array( 'theme_advanced_buttons1' => 'formatselect,forecolor,|,bold,italic,underline,|,bullist,numlist,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,link,unlink,|,spellchecker,wp_fullscreen,wp_adv', 'entity_encoding' => 'raw' )) ); ?>
 </td>
 </tr>
 <?php
 }
 
 function save_extra_category_fileds( $term_id ) {
-    if ( isset( $_POST['Cat_meta'] ) ) {
-        $t_id = $term_id;
-        $cat_meta = get_option( "category_$t_id");
-        $cat_keys = array_keys($_POST['Cat_meta']);
-            foreach ($cat_keys as $key){
-            if (isset($_POST['Cat_meta'][$key])){
-                $cat_meta[$key] = $_POST['Cat_meta'][$key];
-            }
-        }
+    if ( isset( $_POST['toc'] ) ) {
         //save the option array
-        update_option( "category_$t_id", $cat_meta );
+        update_option( "category_toc", stripslashes($_POST['toc']) );
     }
 }
 

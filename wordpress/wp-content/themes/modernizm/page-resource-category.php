@@ -13,9 +13,10 @@ Template Name: Resource Category
 		echo '<h3>'.get_cat_name($cat_id).'</h3>';
 		echo '<p>'.category_description( $cat_id ).'</p>';
 		// echo category Table of Contents meta
-		$cat_data = get_option("category_$cat_id");
-		if (isset($cat_data['toc'])){
-			echo '<div>'.$cat_data['toc'].'</div>';
+		$cat_data = get_option("category_toc");
+		if (isset($cat_data)){
+
+			echo '<div>'. apply_filters( 'meta_content', stripslashes($cat_data) ).'</div>';
 		}
 	}
  	else {
