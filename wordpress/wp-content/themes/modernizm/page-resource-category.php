@@ -16,7 +16,10 @@ Template Name: Resource Category
 		$cat_data = get_option("category_toc");
 		if (isset($cat_data)){
 
-			echo '<div>'. apply_filters( 'meta_content', stripslashes($cat_data) ).'</div>';
+			//$cat_data = html_entity_decode($cat_data, UTF-8);
+			$cat_data = str_replace("\xc2\xa0", " ", $cat_data);
+
+			echo '<div>'. apply_filters( 'meta_content', $cat_data ).'</div>';
 		}
 	}
  	else {
