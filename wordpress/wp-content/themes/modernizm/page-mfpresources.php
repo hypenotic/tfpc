@@ -62,7 +62,7 @@ Template Name: MFPResources
 			</div>
 		</div>
 		 	<div class="entry-content column col11">
-	<h3>Food Policy Initives by Region</h3>
+	<h3>Food Policy Initiatives by Region</h3>
  		<ul id="region-tags">
  			<li><a href="<?php echo get_settings('home').'/tag/west-canada';?>">Western Canada</a></li>
  			<li><a href="<?php echo get_settings('home').'/tag/central-canada';?>">Central Canada</a></li>
@@ -73,10 +73,10 @@ Template Name: MFPResources
  		<h3>Tags <input type="text" id="txtFilter" name="txtFilter" placeholder="filter" style="position:relative;top:-3px;left:3px;" /></h3>
  		<ul id="resource-tags">
 			<li><a href="<?php echo get_settings('home').'/tag/food-charter';?>">Food Charter</a></li>
-			<li><a href="<?php echo get_settings('home').'/tag/food-charter-endorsed';?>">Food Charter (Adopted)</a></li>
+			<li><a href="<?php echo get_settings('home').'/tag/food-charter-adopted';?>">Food Charter (Adopted)</a></li>
 			<li><a href="<?php echo get_settings('home').'/tag/food-charter-endorsed';?>">Food Charter (Endorsed)</a></li>
-			<li><a href="<?php echo get_settings('home').'/tag/food-charter-endorsed';?>">Food Charter (Not Yet Adopted)</a></li>
-			<li><a href="<?php echo get_settings('home').'/tag/food-charter-endorsed';?>">Food Charter (Working Draft)</a></li>
+			<li><a href="<?php echo get_settings('home').'/tag/food-charter-not-yet-adopted';?>">Food Charter (Not Yet Adopted)</a></li>
+			<li><a href="<?php echo get_settings('home').'/tag/food-charter-working-draft';?>">Food Charter (Working Draft)</a></li>
 			<li><a href="<?php echo get_settings('home').'/tag/official-plan';?>">Official Plan</a></li>
 			<li><a href="<?php echo get_settings('home').'/tag/community-food-action-plan';?>">Community Food Action Plan</a></li>
 			<li><a href="<?php echo get_settings('home').'/tag/food-and-health-action-plan';?>"> Food and Health Action Plan</a></li>
