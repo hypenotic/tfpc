@@ -182,7 +182,7 @@ function InitializeForm(form){
 
     jQuery("#first_page_css_class").val(form["firstPageCssClass"]);
 
-    jQuery("#field_settings, #form_settings, #last_page_settings, #pagination_settings").tabs({selected:0});
+    jQuery("#field_settings, #form_settings, #last_page_settings, #pagination_settings").tabs({active:0});
 
     ToggleButton(true);
     ToggleConfirmation(true);
@@ -519,7 +519,7 @@ function LoadFieldSettings(){
 
     jQuery("#field_settings").appendTo(".field_selected");
 
-    jQuery("#field_settings").tabs("select", 0);
+    jQuery("#field_settings").tabs("option", "active", 0);
 
     ShowSettings("field_settings");
 

@@ -1064,4 +1064,72 @@ textarea {
     text-indent: -9999px;
     top: 50%;
     width: 32px;
-}	
+}
+
+/*OVERRIDE OLD STYLES ======== */
+
+.entry-content ul {
+	margin-left: 35px;
+}
+
+.entry-content ul li {
+	
+}
+
+/*OVERRIDE GRAVITY FORMS STYLES ==========*/
+
+#gform_3 ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.gform_title {
+	margin-bottom: 20px;
+}
+
+.gform_body ul li {
+	padding-bottom: 35px;
+}
+
+div.gfield_description {
+	padding-top: 5px;
+	color: darkgrey;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+li.gfield .gfield_label {
+
+}
+
+.ginput_container {
+	padding-top: 5px;
+}
+
+#input_3_1_3_container label,
+#input_3_1_6_container label {
+	padding: 0px 8px;
+}
+
+#gform_submit_button_3 {
+	padding: 10px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	background-color: #525e5f;
+	color: white;
+}
+
+#gform_submit_button_3:hover {
+	background-color: white;
+	color: #525e5f;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
