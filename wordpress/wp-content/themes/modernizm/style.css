@@ -1127,6 +1127,27 @@ li.gfield .gfield_label {
 	cursor: pointer;
 }
 
+body .gform_wrapper .gform_validation_container {
+    display: none;
+}
+
+#gforms_confirmation_message {
+	font-size: 25px;
+}
+
+.gfield_description.validation_message,
+.gfield_required,
+.validation_error {
+	color: red;
+}
+
+.validation_error {
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+
 
 
 
