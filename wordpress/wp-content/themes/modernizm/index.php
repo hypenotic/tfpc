@@ -26,6 +26,22 @@
 	</div><!-- .headline -->
 	<?php endif; ?>
 
+	  <?php 
+		  query_posts('showposts=3&cat='.$cat_featured);
+		  if ( have_posts() ) : ?>
+	  <div class="featured columns col10">
+	    <!-- Pake Loop dulu biar ga pusing bacanya -->
+	    <?php while ( have_posts() ) : the_post();?>
+	      <div class="column col5"> 
+	        <?php colabs_image('width=400&height=204&play=true'); ?>
+	        <h3 class="headline-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+	        <p><?php excerpt();?></p>
+	        <a class="more-link" href="<?php the_permalink();?>"><?php _e('Continue Reading','colabsthemes');?> &rarr;</a>
+	      </div>
+	    <?php endwhile; ?>
+	  </div><!-- .featured -->
+	  <?php endif; ?>
+
 	<?php colabs_latest_post(5,'col10');?><!-- .recent-entry -->
 
 

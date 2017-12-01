@@ -198,7 +198,7 @@ textarea {
 
 #featuredContent li { margin-left: 0; }
 #featuredContent a { display: inline-block; position: relative; }
-.slider-description { position: absolute; bottom: 0; background-color: hsla(331, 1%, 50%, 0.6); width: 100%; color: #fff; }
+.slider-description { bottom: 0; background-color: hsla(331, 1%, 50%, 0.6); width: 100%; color: #fff; }
 .slider-description h3 { display: inline-block; padding: 10px 0 0 10px;}
 .slider-description p { display: inline-block; padding-left: 10px;}
 

@@ -269,15 +269,19 @@ if (!function_exists('colabs_latest_post')) {
 	<?php if(!is_page('links-resources')):?>
 		<div class="recent-entry columns <?php echo $class;?>">
 			<div class="recent-title column <?php echo $class;?>">
-				<h6 class="floatleft"><?php _e('Recent Entries','colabsthemes');?></h6>
+				<h6 class="floatleft"><?php _e('More Featured Posts','colabsthemes');?></h6>
 				<a href="<?php  echo $url[0];?>" class="link-button floatright"><?php _e('Go To Archive','colabsthemes');?></a>
 			</div>
 			<div class="recent-list columns">	
 		<?php
+			
 			query_posts(array(
-				'category__not_in' => array($cat_headline,$cat_featured),
-				'showposts' => $posts,
-				));
+				// 'category__not_in' => array($cat_headline,$cat_featured),
+				// 'showposts' => $posts,
+				'posts_per_page' => 5,
+				'post__in'  => get_option( 'sticky_posts' ),
+				'ignore_sticky_posts' => 1
+			));
 			if ( have_posts() ) :
 			while( have_posts() ) : the_post() ;		
 		?>

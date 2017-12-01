@@ -59,7 +59,7 @@
 			<?php colabs_postnav();?>
 		</div><!-- .entry-content -->
 		
-		<?php comments_template( '', true );?>
+		<?php //comments_template( '', true );?>
 	</div>
 
 
