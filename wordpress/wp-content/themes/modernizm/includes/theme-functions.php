@@ -276,7 +276,7 @@ if (!function_exists('colabs_latest_post')) {
 		<?php
 			
 			query_posts(array(
-				// 'category__not_in' => array($cat_headline,$cat_featured),
+				'category__not_in' => array($cat_headline),
 				// 'showposts' => $posts,
 				'posts_per_page' => 5,
 				'post__in'  => get_option( 'sticky_posts' ),
