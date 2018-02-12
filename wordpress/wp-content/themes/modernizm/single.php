@@ -4,7 +4,7 @@
 
 
 	<div class="post columns col10">
-		<div class="entry-content column col6">
+		<div class="entry-content column col10" style="width: 95%;border-right: none;">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php 
 			 
@@ -28,7 +28,7 @@
 				?>
 			  </div>
 			  <?php }?>
-			<div class="entry-text column col5 floatright">
+			<div class="entry-text column col10">
 				<h3 class="entry-title"><?php the_title(); ?></h3>
 				<div class="entry-meta">
 					<?php printf( __('%1$s by %2$s', 'colabsthemes'), get_the_date(), get_the_author() ); ?>
