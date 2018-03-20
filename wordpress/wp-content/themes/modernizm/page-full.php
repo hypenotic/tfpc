@@ -5,11 +5,11 @@ Template Name: Full-width
  ?>
 <?php get_header(); ?>
 
-<div id="content" class="columns col10">
+<div id="content" class="columns col12">
 <?php while ( have_posts() ) : the_post(); ?>
 
-	<div class="post columns col10">
-		<div class="entry-content column col10">
+	<div class="post columns col12">
+		<div class="entry-content column col12">
 			<div class="entry-text">
 				<h3 class="entry-title"><?php the_title(); ?></h3>
 				<?php the_content(); ?>

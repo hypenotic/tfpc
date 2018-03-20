@@ -4,10 +4,10 @@ Template Name: Sitemap
 */
  ?>
 <?php get_header();?>
-<div id="content" class="columns col12">
+<div id="content" class="columns col10">
 <?php while ( have_posts() ) : the_post(); ?>
 
-	<div class="post columns col12">
+	<div class="post columns col10">
 		<div class="entry-content column col10">
 			<div class="entry-text">
 				<h2 class="entry-title"><?php the_title(); ?></h2>
