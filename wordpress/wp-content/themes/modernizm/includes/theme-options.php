@@ -70,11 +70,11 @@ $options[] = array( "name" => "General Settings",
 					"type" => "heading",
 					"icon" => "general");
 
-$options[] = array( "name" => "Custom Favicon",
+/*$options[] = array( "name" => "Custom Favicon",
 					"desc" => "Upload a 16x16px ico image that will represent your website's favicon. Favicon/bookmark icon will be shown at the left of your blog's address in visitor's internet browsers.",
 					"id" => $shortname."_custom_favicon",
 					"std" => trailingslashit( get_bloginfo('template_url') ) . "images/favicon.png",
-					"type" => "upload"); 
+					"type" => "upload"); */
 					
 $options[] = array( "name" => "Custom Logo Header",
 					"desc" => "Upload a logo for your theme at the header, or specify an image URL directly. Best image size in 153x51 px",
