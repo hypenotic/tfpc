@@ -65,11 +65,11 @@ if (!is_admin()) {
 function category_and_tag_archives($wp_query) {
 	$my_post_array = array('post', 'page');
 
-	if ($wp_query - > get('category_name') || $wp_query - > get('cat'))
-		$wp_query - > set('post_type', $my_post_array);
+	if ($wp_query -> get('category_name') || $wp_query -> get('cat'))
+		$wp_query -> set('post_type', $my_post_array);
 
-	if ($wp_query - > get('tag'))
-		$wp_query - > set('post_type', $my_post_array);
+	if ($wp_query -> get('tag'))
+		$wp_query -> set('post_type', $my_post_array);
 }
 
 ?>
