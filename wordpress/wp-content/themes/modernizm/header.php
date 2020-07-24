@@ -5,9 +5,9 @@
 <title><?php if ( function_exists( 'colabs_title') ){ colabs_title(); }else{ echo get_bloginfo('name'); ?>&nbsp;<?php wp_title(); } ?></title>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <?php 
-	if ( function_exists( 'colabs_meta') ) colabs_meta();
+	/*if ( function_exists( 'colabs_meta') ) colabs_meta();
 	if ( function_exists( 'colabs_meta_head') )colabs_meta_head(); 
-    global $colabs_options;
+    global $colabs_options;*/
 ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/includes/css/colabs-css.css">
